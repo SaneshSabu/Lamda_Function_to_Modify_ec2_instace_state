@@ -34,3 +34,5 @@ def lamda_handler(event,context):
     instance_id = instance['Instances'][0]['InstanceId']
   
     stop_instance(instance_id)
+   #start_instance(instance_id) 
+   #reboot_instance(instance_id)
