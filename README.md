@@ -45,4 +45,5 @@ def lamda_handler(event,context):
    #start_instance(instance_id) 
    #reboot_instance(instance_id)
 ```
-- Set the event on the Cloud watch events to trigger the lammbda function.
+- Set the event on the Cloud watch events to trigger the lambda function.
+- Do not forget to attach the role with appropriate policy to the lambda function
